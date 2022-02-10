@@ -1,0 +1,26 @@
+#Generate student result whether pass or fail
+sno=int(input('enter student no:'))
+sname=str(input('enter student name:'))
+sgroup=str(input('enter student group:'))
+s1=int(input('telugu marks:'))
+s2=int(input('english marks:'))
+s3=int(input('maths marks:'))
+s4=int(input('statistics marks:'))
+s5=int(input('computers marks:'))
+s6=int(input('analytical skills marks:'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print('pass')
+else:
+    print('fail')
+    
+    output
+   enter student no:11
+enter student name:leela
+enter student group:mstcs
+telugu marks:70
+english marks:70
+maths marks:75
+statistics marks:75
+computers marks:75
+analytical skills marks:70
+pass 
